@@ -79,13 +79,20 @@
         - OTP | Google Authenticator
         
     1. 라이센스 서버 모델 선택
+        
+        ![Choose a License Server Model](https://knowledge.autodesk.com/sites/default/files/images/account-select-server-type-650(1).jpg)
     
     1. 사용 가능한 제품 선택
     
     1. 라이센스 파일 생성
-        ![Generate the License File](https://knowledge.autodesk.com/sites/default/files/images/account-server-single-get-650.jpg)
     
-    1. 
+        ![Generate the License File A](https://knowledge.autodesk.com/sites/default/files/images/account-server-single-get-650.jpg)
+    
+        ![Generate the License File B](https://knowledge.autodesk.com/sites/default/files/images/account-license-file-email.jpg)
+        
+    1. 서버에 라이센스 파일 복사
+    
+        
 
     1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
         - ```ex) /opt/flexnetserver/adsk_license.lic```
