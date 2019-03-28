@@ -4,7 +4,7 @@
 
 - 명령어 앞에 '#'는 Root(루트) 계정을 뜻한다.
 
-- Server & User PC OS: ```CentOS7```
+- License Server & Client Computer OS: ```CentOS7```
 
 - Maya Version: ```2018```
 
