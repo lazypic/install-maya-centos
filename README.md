@@ -14,6 +14,11 @@
 
 1. Download Autodesk Network License Manager
 
+    - [Autodesk Network License Manager for Linux](https://knowledge.autodesk.com/search-result/caas/downloads/content/autodesk-network-license-manager-for-linux.html)
+    
+    - ```nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz``` 파일
+
+
 1. Install the Autodesk Network License Manager
 
     ```
