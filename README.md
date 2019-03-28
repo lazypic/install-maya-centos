@@ -30,21 +30,29 @@
     
     - Find ```Host Name```
     ```
-    # cd /usr/local/flexnetserver/
+    # cd /opt/flexnetserver
     
-    # ./lmutil lmhostid -hostname
+    # ./lmutil lmhostid hostname 
     
     <Result>
     lmutil - Copyright (c) 1989-2013 Flexera Software LLC. All Rights Reserved.
-    The FlexNet host ID of this machine is "HOSTNAME=Nostromo"
+    The FlexNet host ID of this machine is "HOSTNAME=storage"
     
+    * Host Name: storage *
     ```
+    
     
     - Find ```Host ID```
     ```
-    # cd /usr/local/flexnetserver/
+    # cd /opt/flexnetserver
     
     # ./lmutil lmhostid
+    
+    <Result>
+    lmutil - Copyright (c) 1989-2013 Flexera Software LLC. All Rights Reserved.
+    The FlexNet host ID of this machine is "6003089af239"
+    
+    * Host ID: 6003089af239
     ```
     
     ```
