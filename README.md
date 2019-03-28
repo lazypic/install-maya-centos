@@ -2,13 +2,26 @@
 
 ## Server
 
+1. Download Autodesk Network License Manager
+
+1. Install the Autodesk Network License Manager
+
+```
+(# = Root 권한)
+
+# tar –zxvf nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz
+
+# rpm -vhi nlm11.16.2.0_ipv4_ipv6_linux64.rpm
+```
+
+위에 두줄을 입력하면 /opt/flexnetserver/ 디렉토리에 라이센스 서버가 설치된다
 
 
 
 ## User PC
 
 1. Install Dependencies (인터넷 필요)
-  - [Download Script](https://gitlab.com/snippets/1690538)
+    - [Download Script](https://gitlab.com/snippets/1690538)
 
 ```
 (# = Root 권한)
@@ -32,6 +45,8 @@ Extras for Setup and Launch
 # ln -s libtiff.so.5 libtiff.so.3
 
 ```
+
+
 
 
 ---
