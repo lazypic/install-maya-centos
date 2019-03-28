@@ -32,7 +32,14 @@
 
 1. Find your license server ```Host Name``` and ```Host ID``` 
 
-    - 
+    ```
+    cd /usr/local/flexnetserver/
+    
+    ./lmutil lmhostid -hostname
+    
+    *여기서 오류가 
+    
+    ```
 
 ## User PC
 
@@ -69,6 +76,8 @@
 ## Useful Links
 
 - [How to set up the Autodesk Network License Manager on Linux](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-set-up-a-Network-License-Server-Manager-on-Linux.html)
+
+- [Network License Administration | Finding Your Host Name and Physical Address](https://knowledge.autodesk.com/customer-service/network-license-administration/get-ready-network-license/getting-network-license-file/finding-your-host-name-and-id)
 
 - [Lmutil error: lib64ld-lsb-x86-64.so.3: bad ELF interpreter](https://knowledge.autodesk.com/support/maya/learn-explore/caas/sfdcarticles/sfdcarticles/Lmutil-error-lib64ld-lsb-x86-64-so-3-bad-ELF-interpreter.html)
 
