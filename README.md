@@ -2,7 +2,7 @@
 
 ## Info
 
-- 명령어 앞에 '#'는 Root(루트) 계정을 뜻한다.
+- 명령어 앞에 ```#``` 는 Root(루트) 계정을 뜻한다.
 
 - License Server & Client Computer OS: ```CentOS7```
 
@@ -15,6 +15,8 @@
 - yum 명령어는 인터넷을 사용한다.
 
 - Example Server Name: ```storage```
+
+- Example License File Name: ```storage6003089af239.lic```
 
 ## License Server
 
@@ -110,15 +112,17 @@
         
     1. 서버에 라이센스 파일 복사
     
+        - 라이센스 파일을 생성한 다음에는 라이센스 서버에 저장해야 한다.
+        - 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
+    
         
-
     1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
         - ```ex) /opt/flexnetserver/adsk_license.lic```
 
 
 1. 네트워크 라이센스 서버를 시작하기
     ```
-    #cd /opt/flexnetserver
+    # cd /opt/flexnetserver
     
     # ./lmgrd -c /opt/flexnetserver/adsk_license.lic -l /opt/flexnetserver/server_log.log
     ex) # ./lmgrd -c /opt/flexnetserver/storage6003089af239.lic -l /opt/flexnetserver/server_log.log
@@ -126,7 +130,7 @@
 
 1. 라이센스 서버 상태 쿼리를 얻기
     ```
-    #cd /opt/flexnetserver
+    # cd /opt/flexnetserver
     
     # ./lmutil lmstat -a -c /opt/flexnetserver/adsk_license.lic
     ex) # ./lmutil lmstat -a -c /opt/flexnetserver/storage6003089af239.lic
@@ -136,7 +140,7 @@
 
 1. 라이센스 서버 서비스를 중지하기
     ```
-    #cd /opt/flexnetserver
+    # cd /opt/flexnetserver
     
     # ./lmutil lmdown -q -force
     ```
