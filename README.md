@@ -4,6 +4,7 @@
 
 - 명령어 앞에 '#'는 Root(루트) 계정을 뜻한다.
 
+- Server & User PC OS: ```CentOS7```
 
 ## Autodesk Account
 
@@ -16,7 +17,7 @@
 
     - [Autodesk Network License Manager for Linux](https://knowledge.autodesk.com/search-result/caas/downloads/content/autodesk-network-license-manager-for-linux.html)
     
-    - ```nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz``` 파일
+    - ```nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz``` 파일 내려받기
 
 
 1. Install the Autodesk Network License Manager
@@ -29,9 +30,13 @@
 
     - 위에 두줄을 입력하면 /opt/flexnetserver/ 디렉토리에 라이센스 서버가 설치된다
 
+1. Find your license server ```Host Name``` and ```Host ID``` 
 
+    - 
 
 ## User PC
+
+1. Download Maya
 
 1. Install Dependencies (인터넷 필요)
     
