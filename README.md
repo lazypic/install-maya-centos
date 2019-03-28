@@ -1,20 +1,28 @@
 # Maya Install CentOS 7
 
+## Info
+
+- 명령어 앞에 '#'는 Root(루트) 권한이
+
+
+## Autodesk Account
+
+1. 접속
+
+
 ## Server
 
 1. Download Autodesk Network License Manager
 
 1. Install the Autodesk Network License Manager
 
-```
-(# = Root 권한)
+    ```
+    # tar –zxvf nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz
 
-# tar –zxvf nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz
+    # rpm -vhi nlm11.16.2.0_ipv4_ipv6_linux64.rpm
+    ```
 
-# rpm -vhi nlm11.16.2.0_ipv4_ipv6_linux64.rpm
-```
-
-위에 두줄을 입력하면 /opt/flexnetserver/ 디렉토리에 라이센스 서버가 설치된다
+    - 위에 두줄을 입력하면 /opt/flexnetserver/ 디렉토리에 라이센스 서버가 설치된다
 
 
 
@@ -24,8 +32,6 @@
     - [Download Script](https://gitlab.com/snippets/1690538)
 
 ```
-(# = Root 권한)
-
 Dependent OpenGL libraries
 # yum -y install mesa-libGLw mesa-libGLU libglvnd*64
 
