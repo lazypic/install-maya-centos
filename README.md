@@ -8,6 +8,8 @@
 
 - Maya Version: ```2018```
 
+- 내려받은 파일들은 ```~/Downloads``` 디렉토리에 저장
+
 ## Server
 
 1. Download Autodesk Network License Manager
@@ -20,6 +22,8 @@
 1. Install the Autodesk Network License Manager
 
     ```
+    # cd ~/Downloads
+    
     # tar –zxvf nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz
 
     # rpm -vhi nlm11.16.2.0_ipv4_ipv6_linux64.rpm
@@ -66,6 +70,7 @@
 1. Generate your Network License File in Autodesk Account
 
     - Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
+        - OTP | Google Authenticator
 
 ## User PC
 
