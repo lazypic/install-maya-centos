@@ -2,7 +2,7 @@
 
 ## Info
 
-- 명령어 앞에 '#'는 Root(루트) 권한이
+- 명령어 앞에 '#'는 Root(루트) 계정을 뜻한다.
 
 
 ## Autodesk Account
