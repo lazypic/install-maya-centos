@@ -10,7 +10,9 @@
 
 - 내려받은 파일들은 ```~/Downloads``` 디렉토리에 저장
 
-## Server
+- yum 명령어는 인터넷을 사용한다.
+
+## License Server
 
 1. Download Autodesk Network License Manager
 
@@ -112,9 +114,9 @@
     ```
 
 
-## User PC
+## Client Computer
 
-1. Install Dependencies (인터넷 필요)
+1. Install Dependencies
     
     ```
     Dependent OpenGL libraries
@@ -140,8 +142,14 @@
 
 1. Download Maya
 
-1. Install Maya
-
+1. [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
+    
+    ```
+    # cd ~/Downloads
+    # mkdir maya2018
+    # mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
+    # tar –zxvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
+    ```
 
 ---
 
