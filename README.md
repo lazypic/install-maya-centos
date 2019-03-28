@@ -95,8 +95,8 @@
     
         ![Single Lisence Server](https://knowledge.autodesk.com/sites/default/files/images/account-server-single-650.jpg)
         
-            - 서버의 서버 이름 및 MAC 주소를 입력.
-            - <kbd>+</kbd> 버튼을 클릭해 이 서버의 제품 라이센스를 선택.
+        - 서버의 서버 이름 및 MAC 주소를 입력.
+        - <kbd>+</kbd> 버튼을 클릭해 이 서버의 제품 라이센스를 선택.
     
     1. 사용 가능한 제품 선택
     
