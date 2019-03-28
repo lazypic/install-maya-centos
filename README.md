@@ -1,0 +1,1 @@
+# maya-install-centos7
