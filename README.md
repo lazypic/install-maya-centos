@@ -16,7 +16,7 @@
 
     - [Autodesk Network License Manager for Linux](https://knowledge.autodesk.com/search-result/caas/downloads/content/autodesk-network-license-manager-for-linux.html)
     
-    - ```nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz``` 파일 내려받기
+    - 위에 링크에서 ```nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz``` 파일 내려받기
 
 
 1. Install the Autodesk Network License Manager
@@ -29,7 +29,7 @@
     # rpm -vhi nlm11.16.2.0_ipv4_ipv6_linux64.rpm
     ```
 
-    - 위에 두줄을 입력하면 /opt/flexnetserver/ 디렉토리에 라이센스 서버가 설치된다
+    - 위에 두줄을 입력하면 ```/opt/flexnetserver/``` 디렉토리에 라이센스 서버가 설치된다
 
 1. Find your license server ```Host Name``` and ```Host ID``` 
     
@@ -43,7 +43,7 @@
     lmutil - Copyright (c) 1989-2013 Flexera Software LLC. All Rights Reserved.
     The FlexNet host ID of this machine is "HOSTNAME=storage"
     
-    * Host Name: storage *
+    !! Host Name: storage !!
     ```
     
     
@@ -57,7 +57,7 @@
     lmutil - Copyright (c) 1989-2013 Flexera Software LLC. All Rights Reserved.
     The FlexNet host ID of this machine is "6003089af239"
     
-    * Host ID: 6003089af239
+    !! Host ID: 6003089af239 !!
     ```
     
     ```
@@ -73,8 +73,6 @@
         - OTP | Google Authenticator
 
 ## User PC
-
-1. Download Maya
 
 1. Install Dependencies (인터넷 필요)
     
@@ -100,6 +98,9 @@
     - [Download Script](https://gitlab.com/snippets/1690538)
 
 
+1. Download Maya
+
+1. Install Maya
 
 
 ---
