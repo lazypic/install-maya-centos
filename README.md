@@ -60,6 +60,9 @@
     The FlexNet host ID of this machine is "6003089af239"
     
     !! Host ID: 6003089af239 !!
+    
+    <참고>
+    Host ID 가 여러개 출력되면 첫번째 주소를 사용한다.
     ```
     
     ```
@@ -74,6 +77,15 @@
 
     1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
         - OTP | Google Authenticator
+        
+    1. 라이센스 서버 모델 선택
+    
+    1. 사용 가능한 제품 선택
+    
+    1. 라이센스 파일 생성
+        ![Generate the License File](https://knowledge.autodesk.com/sites/default/files/images/account-server-single-get-650.jpg)
+    
+    1. 
 
     1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
         - ```ex) /opt/flexnetserver/adsk_license.lic```
@@ -143,13 +155,19 @@
 1. Download Maya
 
 1. [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
-    
+
+    - 다운로드한 마야 앞축파일을 풀어준다    
     ```
     # cd ~/Downloads
     # mkdir maya2018
     # mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
     # tar –zxvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
+    
+    # ./setup
     ```
+    
+    - Installation Wizard
+    
 
 ---
 
