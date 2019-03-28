@@ -37,7 +37,8 @@
     
     ./lmutil lmhostid -hostname
     
-    *여기서 오류가 
+    * '/lib64/ld-lsb-x86-64.so.3: bad ELF interpreter: No such file or directory' 오류가 발생하면, 밑에 명령어 실행
+    # yum -y install redhat-lsb
     
     ```
 
