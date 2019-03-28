@@ -7,7 +7,7 @@
 
 ## Autodesk Account
 
-1. 접속
+1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
 
 
 ## Server
@@ -29,28 +29,27 @@
 ## User PC
 
 1. Install Dependencies (인터넷 필요)
+    
+    ```
+    Dependent OpenGL libraries
+    # yum -y install mesa-libGLw mesa-libGLU libglvnd*64
+
+    Dependent X Windows libraries
+    # yum -y install libXp libXpm libXmu libXt libXi libXext libX11 libXinerama libXau libxcb libXcomposite
+
+    Dependent System libraries
+    # yum -y install gamin audiofile audiofile-devel e2fsprogs-libs glibc zlib libSM libICE openssl098e tcsh pulseaudio-libs libxslt alsa-lib
+
+    Fonts
+    # yum -y install xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
+
+    Extras for Setup and Launch
+    # yum -y install libpng12 libtiff
+
+    # cd /usr/lib64
+    # ln -s libtiff.so.5 libtiff.so.3
+    ```
     - [Download Script](https://gitlab.com/snippets/1690538)
-
-```
-Dependent OpenGL libraries
-# yum -y install mesa-libGLw mesa-libGLU libglvnd*64
-
-Dependent X Windows libraries
-# yum -y install libXp libXpm libXmu libXt libXi libXext libX11 libXinerama libXau libxcb libXcomposite
-
-Dependent System libraries
-# yum -y install gamin audiofile audiofile-devel e2fsprogs-libs glibc zlib libSM libICE openssl098e tcsh pulseaudio-libs libxslt alsa-lib
-
-Fonts
-# yum -y install xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
-
-Extras for Setup and Launch
-# yum -y install libpng12 libtiff
-
-# cd /usr/lib64
-# ln -s libtiff.so.5 libtiff.so.3
-
-```
 
 
 
