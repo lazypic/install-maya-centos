@@ -69,8 +69,11 @@
     ```
 1. Generate your Network License File in Autodesk Account
 
-    - Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
+    1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
         - OTP | Google Authenticator
+
+    1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
+        - ```ex) adsk_license.lic/opt/flexnetserver```
 
 ## User PC
 
