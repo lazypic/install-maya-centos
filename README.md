@@ -6,10 +6,6 @@
 
 - Server & User PC OS: ```CentOS7```
 
-## Autodesk Account
-
-1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
-
 
 ## Server
 
@@ -31,16 +27,36 @@
     - 위에 두줄을 입력하면 /opt/flexnetserver/ 디렉토리에 라이센스 서버가 설치된다
 
 1. Find your license server ```Host Name``` and ```Host ID``` 
-
+    
+    - Find ```Host Name```
     ```
-    cd /usr/local/flexnetserver/
+    # cd /usr/local/flexnetserver/
     
-    ./lmutil lmhostid -hostname
+    # ./lmutil lmhostid -hostname
     
-    * '/lib64/ld-lsb-x86-64.so.3: bad ELF interpreter: No such file or directory' 오류가 발생하면, 밑에 명령어 실행
+    <Result>
+    lmutil - Copyright (c) 1989-2013 Flexera Software LLC. All Rights Reserved.
+    The FlexNet host ID of this machine is "HOSTNAME=Nostromo"
+    
+    ```
+    
+    - Find ```Host ID```
+    ```
+    # cd /usr/local/flexnetserver/
+    
+    # ./lmutil lmhostid
+    ```
+    
+    ```
+    <오류>
+    '/lib64/ld-lsb-x86-64.so.3: bad ELF interpreter: No such file or directory'
+    
+    <해결 방법>
     # yum -y install redhat-lsb
-    
     ```
+1. Generate your Network License File in Autodesk Account
+
+    - Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
 
 ## User PC
 
