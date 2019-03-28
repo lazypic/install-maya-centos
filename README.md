@@ -6,6 +6,7 @@
 
 - Server & User PC OS: ```CentOS7```
 
+- Maya Version: ```2018```
 
 ## Server
 
@@ -28,7 +29,7 @@
 
 1. Find your license server ```Host Name``` and ```Host ID``` 
     
-    - Find ```Host Name```
+    - Find **Host Name**
     ```
     # cd /opt/flexnetserver
     
@@ -42,7 +43,7 @@
     ```
     
     
-    - Find ```Host ID```
+    - Find **Host ID**
     ```
     # cd /opt/flexnetserver
     
@@ -107,3 +108,5 @@
 - [Lmutil error: lib64ld-lsb-x86-64.so.3: bad ELF interpreter](https://knowledge.autodesk.com/support/maya/learn-explore/caas/sfdcarticles/sfdcarticles/Lmutil-error-lib64ld-lsb-x86-64-so-3-bad-ELF-interpreter.html)
 
 - [Maya 2018 Dependency Install Script (CentOS 7.x)](https://gitlab.com/snippets/1690538)
+
+- [Additional Linux notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html)
