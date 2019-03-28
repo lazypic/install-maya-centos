@@ -67,6 +67,7 @@
     <해결 방법>
     # yum -y install redhat-lsb
     ```
+    
 1. Autodesk Account에서 네트워크 라이센스 파일을 생성하기
 
     1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
@@ -79,20 +80,37 @@
 1. 네트워크 라이센스 서버를 시작하기
     ```
     #cd /opt/flexnetserver
+    
     # ./lmgrd -c /opt/flexnetserver/adsk_license.lic -l /opt/flexnetserver/server_log.log
+    ex) # ./lmgrd -c /opt/flexnetserver/storage6003089af239.lic -l /opt/flexnetserver/server_log.log
     ```
 
 1. 라이센스 서버 상태 쿼리를 얻기
     ```
     #cd /opt/flexnetserver
+    
     # ./lmutil lmstat -a -c /opt/flexnetserver/adsk_license.lic
+    ex) # ./lmutil lmstat -a -c /opt/flexnetserver/storage6003089af239.lic
     ```
 
 ### 참고
 
 1. 라이센스 서버 서비스를 중지하기
+    ```
+    #cd /opt/flexnetserver
+    
+    # ./lmutil lmdown -q -force
+    ```
 
-1.
+1. 시스템을 재부팅한 후 라이센스 서버를 자동으로 시작하기
+    ```
+    # chmod +x /etc/rc.d/rc.local
+    
+    # vim /etc/rc.d/rc.local
+        >> touch /var/lock/subsys/local 
+        >> /opt/flexnetserver/lmgrd -c /opt/flexnetserver/adsk_license.lic -l /opt/flexnetserver/server_log.log 
+    ```
+
 
 ## User PC
 
