@@ -6,11 +6,15 @@
 
 - License Server & Client Computer OS: ```CentOS7```
 
+- License Server Model: Single Server Model(단일 서버 )
+
 - Maya Version: ```2018```
 
 - 내려받은 파일들은 ```~/Downloads``` 디렉토리에 저장
 
 - yum 명령어는 인터넷을 사용한다.
+
+- Example Server Name: ```storage```
 
 ## License Server
 
@@ -73,7 +77,7 @@
     # yum -y install redhat-lsb
     ```
     
-1. Autodesk Account에서 네트워크 라이센스 파일을 생성하기
+1. Autodesk Account에서 네트워크 라이센스 파일을 생성
 
     1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
         - OTP | Google Authenticator
@@ -81,8 +85,22 @@
     1. 라이센스 서버 모델 선택
         
         ![Choose a License Server Model](https://knowledge.autodesk.com/sites/default/files/images/account-select-server-type-650(1).jpg)
+        
+        - 네트워크 환경에 맞는 라이센스 서버 모델을 선택한다.
+        
+        ```
+        <참고>
+        이 문서는 Single Server Model(단일 서버 모델) 내용만 다루고 있습니다.
+        ```
+    
+        ![Single Lisence Server](https://knowledge.autodesk.com/sites/default/files/images/account-server-single-650.jpg)
+        
+            - 서버의 서버 이름 및 MAC 주소를 입력.
+            - <kbd>+</kbd> 버튼을 클릭해 이 서버의 제품 라이센스를 선택.
     
     1. 사용 가능한 제품 선택
+    
+        
     
     1. 라이센스 파일 생성
     
