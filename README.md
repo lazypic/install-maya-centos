@@ -31,7 +31,7 @@
 
     - 위에 두줄을 입력하면 ```/opt/flexnetserver/``` 디렉토리에 라이센스 서버가 설치된다
 
-1. Find your license server ```Host Name``` and ```Host ID``` 
+1. 라이센스 서버의 ```Host Name``` 과 ```Host ID``` 
     
     - Find **Host Name**
     ```
@@ -67,13 +67,32 @@
     <해결 방법>
     # yum -y install redhat-lsb
     ```
-1. Generate your Network License File in Autodesk Account
+1. Autodesk Account에서 네트워크 라이센스 파일을 생성하기
 
     1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
         - OTP | Google Authenticator
 
     1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
-        - ```ex) adsk_license.lic/opt/flexnetserver```
+        - ```ex) /opt/flexnetserver/adsk_license.lic```
+
+
+1. 네트워크 라이센스 서버를 시작하기
+    ```
+    #cd /opt/flexnetserver
+    # ./lmgrd -c /opt/flexnetserver/adsk_license.lic -l /opt/flexnetserver/server_log.log
+    ```
+
+1. 라이센스 서버 상태 쿼리를 얻기
+    ```
+    #cd /opt/flexnetserver
+    # ./lmutil lmstat -a -c /opt/flexnetserver/adsk_license.lic
+    ```
+
+### 참고
+
+1. 라이센스 서버 서비스를 중지하기
+
+1.
 
 ## User PC
 
