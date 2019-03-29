@@ -4,7 +4,7 @@
 
 - 명령어 앞에 ```#``` 는 Root(루트) 계정을 뜻한다.
 
-- License Server & Client Computer OS: ```CentOS7```
+- License Server & Client Computer OS: ```CentOS 7.6```
 
 - License Server Model: Single Server Model(단일 서버 )
 
@@ -102,7 +102,7 @@
     
     1. 사용 가능한 제품 선택
     
-        
+        ![Add Products](https://knowledge.autodesk.com/sites/default/files/images/account-server-add-products.jpg)
     
     1. 라이센스 파일 생성
     
@@ -117,7 +117,7 @@
     
         
     1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
-        - ```ex) /opt/flexnetserver/adsk_license.lic```
+        - ```ex) /opt/flexnetserver/storage6003089af239.lic```
 
 
 1. 네트워크 라이센스 서버를 시작하기
@@ -171,7 +171,6 @@
     # yum -y install xkeyboard-config freetype fontconfig xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
 
     # yum -y install libpng12 libtiff
-
     ```
     - [Download Script](https://gitlab.com/snippets/1798656)
 
