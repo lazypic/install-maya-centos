@@ -169,7 +169,14 @@
 
     1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
     
-    1. 
+    1. 다운로드 보기
+    ![download maya](../img/download-maya.png)
+    
+    1. 기본 버젼 다운로드
+    ![download maya vanilla](../img/download-maya-vanilla.png)
+    
+    1. 업데이트 버젼 및 애드온 다운로드
+    ![download maya update](../img/download-maya-update.png)
 
 1. [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
 
