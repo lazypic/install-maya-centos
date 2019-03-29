@@ -198,13 +198,21 @@
     
         - 라이센스 정보 입력
         
-        ```
-        Enter your 11-digit Serial Number & Product key.
+            라이센스 유형: :white_medium_square:독립 실행형    :white_square_button:네트워크
+            
+            일련 번호:      `123-45678910` (11-digit)
+            
+            제품 키:       `657J1`
+            
+            :white_square_button:기존 라이센스 서버 사용
+                서버 이름: `10.0.0.100`
         
-        Select your License type: Standalone or Network.
+            Enter your 11-digit Serial Number & Product key.
+
+            Select your License type: Standalone or Network.
+
+            네트워크 라이센스 타입을 선택하는 경우는, 표시된 서버명 필드에 라이센스 서버명을 입력합니다.
         
-        네트워크 라이센스 타입을 선택하는 경우는, 표시된 서버명 필드에 라이센스 서버명을 입력합니다.
-        ```
         
 ---
 
