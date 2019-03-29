@@ -3,19 +3,12 @@
 ## Info
 
 - 명령어 앞에 `#` 는 Root(루트) 계정을 뜻한다. `$` 는 일반 계정을 뜻한다.
-
 - License Server & Client Computer OS: ```CentOS 7.6```
-
-- License Server Model: Single Server Model(단일 서버 )
-
+- License Server Model: Single Server Model(단일 서버)
 - Maya Version: ```2018```
-
 - 내려받은 파일들은 ```~/Downloads``` 디렉토리에 저장
-
 - yum 명령어는 인터넷을 사용한다.
-
 - Example Server Name: ```storage```
-
 - Example License File Name: ```storage6003089af239.lic```
 
 ## License Server
@@ -79,7 +72,7 @@
     # yum -y install redhat-lsb
     ```
     
-1. Autodesk Account에서 네트워크 라이센스 파일을 생성
+1. [Autodesk Account에서 네트워크 라이센스 파일을 생성](https://knowledge.autodesk.com/ko/customer-service/network-license-administration/get-ready-network-license/getting-network-license-file/generating-license-file)
 
     1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
         - OTP | Google Authenticator
@@ -114,10 +107,6 @@
     
         - 라이센스 파일을 생성한 다음에는 라이센스 서버에 저장해야 한다.
         - 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
-    
-        
-    1. 라이센스(.lic) 파일을 ```/opt/flexnetserver``` 디렉토리에 저장한다.
-        - ```ex) /opt/flexnetserver/storage6003089af239.lic```
 
 
 1. 네트워크 라이센스 서버를 시작하기
@@ -160,22 +149,27 @@
 1. Install Dependencies **(Maya 2018 CentOS 7.6)**
     
     ```
-    # yum -y install mesa-libGLU libglvnd*64
+    # yum -y install mesa-libGLw mesa-libGLU libglvnd*64
 
-    # yum -y install libX11 libXrandr libXi libXp libXmu libXpm libXt libXdamage libXtst libXcursor libXfixes libXcomposite libXinerama libSM libXv libXaw
+    # yum -y install libXp libXpm libXmu libXt libXi libXext libX11 libXinerama libXau libxcb libXcomposite
 
-    # yum -y install libgomp gstreamer1 gstreamer1-plugins-base gstreamer gstreamer-plugins-base gamin libjpeg-turbo alsa-lib pulseaudio-libs audiofile-devel
+    # yum -y install gamin audiofile audiofile-devel e2fsprogs-libs glibc zlib libSM libICE openssl098e tcsh pulseaudio-libs libxslt alsa-lib
 
-    # yum -y install compat-db47 qt5-qtmultimedia gtk2 atk gdk-pixbuf2 libmng postgresql-libs
-
-    # yum -y install xkeyboard-config freetype fontconfig xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
+    # yum -y install xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
 
     # yum -y install libpng12 libtiff
+
+    # cd /usr/lib64
+    # ln -s libtiff.so.5 libtiff.so.3
     ```
-    - [Download Script](https://gitlab.com/snippets/1798656)
+    - [Download Script](https://gitlab.com/snippets/1690538)
 
 
 1. Download Maya
+
+    1. Autodesk Account 접속 - [https://manage.autodesk.com/home/](https://manage.autodesk.com/)
+    
+    1. 
 
 1. [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
 
