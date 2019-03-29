@@ -11,7 +11,7 @@
 - Example Server Name: ```storage```
 - Example License File Name: ```storage6003089af239.lic```
 
-## License Server
+## [License Server](https://knowledge.autodesk.com/ko/customer-service/network-license-administration/get-ready-network-license/getting-network-license-file/generating-license-file)
 
 1. Download Autodesk Network License Manager
 
