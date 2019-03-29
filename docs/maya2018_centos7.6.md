@@ -205,6 +205,8 @@ $ echo "MAYA_DISABLE_CIP=1" >> ~/maya/2018/Maya.env
 
 [관련 링크](https://forums.autodesk.com/t5/maya-forum/maya-2018-3-osx-slow-at-start-up/m-p/7983041#M58838)
 
+[MAYA_APP_DIR 환경변수](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-8EFB1AC1-ED7D-4099-9EEE-624097872C04-htm.html)
+
 ---
 
 ## Useful Links
