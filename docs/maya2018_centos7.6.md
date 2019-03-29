@@ -180,7 +180,7 @@
 
 1. [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
 
-    - 다운로드한 마야 앞축파일을 풀어준다    
+    1. 다운로드한 마야 앞축파일을 풀어준다    
     ```
     $ cd ~/Downloads
     $ mkdir maya2018
@@ -194,9 +194,18 @@
     # ./setup
     ```
     
-    - Installation Wizard
+    1. Installation Wizard
     
-
+        - 라이센스 정보 입력
+        
+        ```
+        Enter your 11-digit Serial Number & Product key.
+        
+        Select your License type: Standalone or Network.
+        
+        네트워크 라이센스 타입을 선택하는 경우는, 표시된 서버명 필드에 라이센스 서버명을 입력합니다.
+        ```
+        
 ---
 
 ## After Installation
