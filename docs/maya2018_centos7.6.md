@@ -194,6 +194,16 @@
 
 ---
 
+## After Installation
+
+마야 
+
+```
+echo "MAYA_DISABLE_CIP=1" >> ~/maya/2018/Maya.env
+```
+
+---
+
 ## Useful Links
 
 - [How to set up the Autodesk Network License Manager on Linux](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-set-up-a-Network-License-Server-Manager-on-Linux.html)
