@@ -196,12 +196,14 @@
 
 ## After Installation
 
-마야 스타트업 시간이 너무 오래걸리면 터미널에 아래 코드를 입력한다.
+마야 스타트업 시간이 너무 오래걸리면 터미널에 아래의 코드를 입력한다.
 
 ```
 $ echo "MAYA_DISABLE_CIP=1" >> ~/maya/2018/Maya.env
 ```
+
 [관련 링크](https://forums.autodesk.com/t5/maya-forum/maya-2018-3-osx-slow-at-start-up/m-p/7983041#M58838)
+
 ---
 
 ## Useful Links
