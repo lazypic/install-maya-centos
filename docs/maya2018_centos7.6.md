@@ -181,22 +181,24 @@
 1. [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2018/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
 
     1. 다운로드한 마야 앞축파일을 풀어준다    
-    ```
-    $ cd ~/Downloads
-    $ mkdir maya2018
-    $ mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
-    
-    $ cd maya2018
-    $ tar xpvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
-    
-    # su -    "su 옆에 마이너스(-)를 입력해준다"
-    # cd /home/$USER/Downloads/maya2018
-    # ./setup
-    ```
+        ```
+        $ cd ~/Downloads
+        $ mkdir maya2018
+        $ mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
+
+        $ cd maya2018
+        $ tar xpvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
+
+        # su -    "su 옆에 마이너스(-)를 입력해준다"
+        # cd /home/$USER/Downloads/maya2018
+        # ./setup
+        ```
     
     1. Installation Wizard
     
         - 라이센스 정보 입력
+        
+            ex)
         
             라이센스 유형: :white_medium_square:독립 실행형    :white_square_button:네트워크
             
@@ -206,9 +208,9 @@
             
             :white_square_button:기존 라이센스 서버 사용
             
-            `네트워크 라이센스 타입을 선택하는 경우는, 표시된 서버명 필드에 라이센스 서버명을 입력합니다.`
-            
             서버 이름: `10.0.0.100`
+            
+        ![server info](../img/install-server-info.png)
         
             
 ---
