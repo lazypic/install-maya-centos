@@ -2,7 +2,7 @@
 
 ## Info
 
-- 명령어 앞에 ```#``` 는 Root(루트) 계정을 뜻한다.
+- 명령어 앞에 `#` 는 Root(루트) 계정을 뜻한다. `$` 는 일반 계정을 뜻한다.
 
 - License Server & Client Computer OS: ```CentOS 7.6```
 
@@ -196,10 +196,10 @@
 
 ## After Installation
 
-마야 
+마야 스타트업 시간이 너무 오래걸리면 
 
 ```
-echo "MAYA_DISABLE_CIP=1" >> ~/maya/2018/Maya.env
+$ echo "MAYA_DISABLE_CIP=1" >> ~/maya/2018/Maya.env
 ```
 
 ---
