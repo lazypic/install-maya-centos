@@ -1,4 +1,4 @@
-# Maya Install CentOS 7
+# Install Maya 2019 CentOS 7.6
 
 ## Info
 
@@ -8,7 +8,7 @@
 
 - License Server Model: Single Server Model(단일 서버 )
 
-- Maya Version: ```2018```
+- Maya Version: ```2019```
 
 - 내려받은 파일들은 ```~/Downloads``` 디렉토리에 저장
 
@@ -157,28 +157,23 @@
 
 ## Client Computer
 
-1. Install Dependencies
+1. Install Dependencies **(Maya 2019 CentOS 7.6)**
     
     ```
-    Dependent OpenGL libraries
-    # yum -y install mesa-libGLw mesa-libGLU libglvnd*64
+    # yum -y install mesa-libGLU libglvnd*64
 
-    Dependent X Windows libraries
-    # yum -y install libXp libXpm libXmu libXt libXi libXext libX11 libXinerama libXau libxcb libXcomposite
+    # yum -y install libX11 libXrandr libXi libXp libXmu libXpm libXt libXdamage libXtst libXcursor libXfixes libXcomposite libXinerama libSM libXv libXaw
 
-    Dependent System libraries
-    # yum -y install gamin audiofile audiofile-devel e2fsprogs-libs glibc zlib libSM libICE openssl098e tcsh pulseaudio-libs libxslt alsa-lib
+    # yum -y install libgomp gstreamer1 gstreamer1-plugins-base gstreamer gstreamer-plugins-base gamin libjpeg-turbo alsa-lib pulseaudio-libs audiofile-devel
 
-    Fonts
-    # yum -y install xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
+    # yum -y install compat-db47 qt5-qtmultimedia gtk2 atk gdk-pixbuf2 libmng postgresql-libs
 
-    Extras for Setup and Launch
+    # yum -y install xkeyboard-config freetype fontconfig xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi liberation-mono-fonts liberation-fonts-common liberation-sans-fonts liberation-serif-fonts
+
     # yum -y install libpng12 libtiff
 
-    # cd /usr/lib64
-    # ln -s libtiff.so.5 libtiff.so.3
     ```
-    - [Download Script](https://gitlab.com/snippets/1690538)
+    - [Download Script](https://gitlab.com/snippets/1798656)
 
 
 1. Download Maya
@@ -188,11 +183,11 @@
     - 다운로드한 마야 앞축파일을 풀어준다    
     ```
     # cd ~/Downloads
-    # mkdir maya2018
-    # mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
-    # tar –zxvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
+    # mkdir maya2019
+    # mv Autodesk_Maya_2019_EN_Linux_64bit.tgz maya2019
+    # 
     
-    # ./setup
+    # ./setup-bin
     ```
     
     - Installation Wizard
@@ -207,6 +202,8 @@
 - [Network License Administration | Finding Your Host Name and Physical Address](https://knowledge.autodesk.com/customer-service/network-license-administration/get-ready-network-license/getting-network-license-file/finding-your-host-name-and-id)
 
 - [Lmutil error: lib64ld-lsb-x86-64.so.3: bad ELF interpreter](https://knowledge.autodesk.com/support/maya/learn-explore/caas/sfdcarticles/sfdcarticles/Lmutil-error-lib64ld-lsb-x86-64-so-3-bad-ELF-interpreter.html)
+
+- [Maya 2019 Dependency Install Script (CentOS 7.6)](https://gitlab.com/snippets/1798656)
 
 - [Maya 2018 Dependency Install Script (CentOS 7.x)](https://gitlab.com/snippets/1690538)
 
