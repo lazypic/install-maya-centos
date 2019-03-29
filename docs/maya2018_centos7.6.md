@@ -182,12 +182,15 @@
 
     - 다운로드한 마야 앞축파일을 풀어준다    
     ```
-    # cd ~/Downloads
-    # mkdir maya2018
-    # mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
-    # 
+    $ cd ~/Downloads
+    $ mkdir maya2018
+    $ mv Autodesk_Maya_2018_EN_Linux_64bit.tgz maya2018
     
-    # ./setup-bin
+    $ cd maya2018
+    $ tar xpvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
+    
+    # su - << su 옆에 마이너스 '-'를 입력해준다
+    # ./setup
     ```
     
     - Installation Wizard
