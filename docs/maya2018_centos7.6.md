@@ -1,4 +1,4 @@
-# Install Maya 2018 CentOS 7.6
+# Install Maya 2018 on CentOS 7.6
 
 ## Info
 
