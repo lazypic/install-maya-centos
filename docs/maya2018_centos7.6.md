@@ -3,13 +3,13 @@
 ## Info
 
 - 명령어 앞에 `#` 는 Root(루트) 계정을 뜻한다. `$` 는 일반 계정을 뜻한다.
-- License Server & Client Computer OS: ```CentOS 7.6```
+- License Server & Client Computer OS: `CentOS 7.6`
 - License Server Model: Single Server Model(단일 서버)
-- Maya Version: ```2018```
-- 내려받은 파일들은 ```~/Downloads``` 디렉토리에 저장
+- Maya Version: `2018`
+- 내려받은 파일들은 `~/Downloads` 디렉토리에 저장
 - yum 명령어는 인터넷을 사용한다.
-- Example Server Name: ```storage```
-- Example License File Name: ```storage6003089af239.lic```
+- Example Server Name: `storage`
+- Example License File Name: `storage6003089af239.lic`
 
 ## [License Server](https://knowledge.autodesk.com/ko/customer-service/network-license-administration/get-ready-network-license/getting-network-license-file/generating-license-file)
 
@@ -17,7 +17,7 @@
 
     - [Autodesk Network License Manager for Linux](https://knowledge.autodesk.com/search-result/caas/downloads/content/autodesk-network-license-manager-for-linux.html)
     
-    - 위에 링크에서 ```nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz``` 파일 내려받기
+    - 위에 링크에서 `nlm11.16.2.0_ipv4_ipv6_linux64.tar.gz` 파일 내려받기
 
 
 1. Install the Autodesk Network License Manager
@@ -30,9 +30,9 @@
     # rpm -vhi nlm11.16.2.0_ipv4_ipv6_linux64.rpm
     ```
 
-    - 위에 두줄을 입력하면 ```/opt/flexnetserver/``` 디렉토리에 라이센스 서버가 설치된다
+    - 위에 두줄을 입력하면 `/opt/flexnetserver/` 디렉토리에 라이센스 서버가 설치된다
 
-1. 라이센스 서버의 ```Host Name``` 과 ```Host ID``` 
+1. 라이센스 서버의 `Host Name` 과 `Host ID`
     
     - Find **Host Name**
     ```
