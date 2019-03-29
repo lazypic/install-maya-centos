@@ -189,7 +189,8 @@
         $ cd maya2018
         $ tar xpvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
 
-        # su -    "su 옆에 마이너스(-)를 입력해준다"
+        $ su -    <중요> su 옆에 마이너스(-)를 입력해준다 <중요>
+        
         # cd /home/$USER/Downloads/maya2018
         # ./setup
         ```
@@ -198,13 +199,11 @@
     
         - 라이센스 정보 입력
         
-            ex)
-        
-            라이센스 유형: :white_medium_square:독립 실행형    :white_square_button:네트워크
+            라이센스 유형: :white_medium_square:독립 실행형 :white_square_button:네트워크
             
-            일련 번호:      `123-45678910` (11-digit)
+            일련 번호: `123-45678910` (11-digit)
             
-            제품 키:       `657J1`
+            제품 키: `657J1`
             
             :white_square_button:기존 라이센스 서버 사용
             
