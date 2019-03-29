@@ -13,10 +13,15 @@
 
 ### Product Key(제품키)
 
-- Maya 2019: ```657K1```
-- Maya 2018: ```657J1```
-- Maya 2017: ```657I1```
-- Maya 2016: ```657H1```
+Client Computer에 마야 설치시 꼭 그버젼에 맞는 제품키를 인스톨러에 입력한다.
+마야 2018를 설치하는데 `657H1`(마야 2016 제품키)를 입력하면 마야 실행시에 오류가 발생한다.
+
+- Maya 2019: `657K1`
+- Maya 2018: `657J1`
+- Maya 2017: `657I1`
+- Maya 2016: `657H1`
+
+<참고> [2018: Autodesk 제품용 제품 키](https://knowledge.autodesk.com/ko/customer-service/download-install/activate/find-serial-number-product-key/product-key-look/2018-product-keys)
 
 ### Dependency(종속성)
 
