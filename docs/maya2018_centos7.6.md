@@ -190,6 +190,7 @@
     $ tar xpvf Autodesk_Maya_2018_EN_Linux_64bit.tgz
     
     # su -    "su 옆에 마이너스(-)를 입력해준다"
+    # cd /home/$USER/Downloads/maya2018
     # ./setup
     ```
     
