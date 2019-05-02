@@ -192,7 +192,7 @@
         $ su -    <중요> su 옆에 마이너스(-)를 입력해준다 <중요>
         
         # cd /home/$USER/Downloads/maya2018
-        # ./setup
+        # ./setup.sh
         ```
     
     1. Installation Wizard
